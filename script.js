@@ -14,7 +14,7 @@ value.classList.add('attention');
 
 document.getElementById('infos').classList.remove('hidden');
 if (bmi <18.5){
-    description = 'Cuidado,voce esta acima do peso'
+    description = 'Cuidado,voce esta abaixo do peso'
 } else if(bmi>=18.5 && bmi<=25){
     description= 'Voce esta no peso ideal';
     value.classList.remove('attention');
